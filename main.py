@@ -57,9 +57,9 @@ if __name__ == "__main__":
         
         num_decks = 1 # define o número de baralhos utilizados 
         num_cards = 5 # define o número de cartas de cada jogador
-        num_players = 2 # define o numero de pessoas jogando (pode ser de 2 a 10) 
+        num_players = get_int("How many players?",min=2,max=10) # define o numero de pessoas jogando (pode ser de 2 a 10) 
         num_shuffles = 1 # define o número de vezes que o baralho é embaralhado
-        num_games = get_int("How many games?",max=500)
+        num_games = get_int("How many games?",max=500) # define o número de jogos realizados em sequência
         
         
         #validation = get_int("How many games?",max=500)
