@@ -1,7 +1,6 @@
 # Desafio Python: Poker Hand
 
-Essa aplicação foi criada como parte de um desafio, de programação em python. As regras do desafio podem ser encontradas no arquivo desafio python v1.0.pdf. Em resumo, o desafio consiste em criar um programa que simule um jogo de poker entre duas pessoas. O programa, portanto, emula um jogo de poker. Para executar a aplicação o usuário deve 
-
+Essa aplicação foi criada como parte de um desafio, de programação em python. As regras do desafio podem ser encontradas no arquivo desafio python v1.0.pdf. Em resumo, o desafio consiste em criar um programa que simule um jogo de poker entre duas pessoas. O programa, portanto, emula um jogo de poker.
 
 A aplicação tem três modos de funcionamento, o modo 1 -> Random Hands, o modo 2 -> Specific Hands e o modo 3 -> Pré Implemented Test e você pode escolher o modo que deseja utilizar na inicialização da aplicação, digitando o número correspondente ao modo desejado como input no console. O modo Random Hands é o modo mais clássico em que alguns jogadores de poker se enfrentam comprando cartas aleatóriamente do baralho até que cada jogador tenha 5 cartas, então o programa compara as mãos dos jogadores para definir qual foi o vencedor. Nesse modo é solicitado que o usuário faça o input do número de jogadores (de 2 a 10) e do número de jogos que serão jogados em seguida (de 1 a 500). 
 
